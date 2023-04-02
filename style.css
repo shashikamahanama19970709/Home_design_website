@@ -116,7 +116,7 @@ nav .fas{
       } */
 
     .nav-links{
-        position: absolute;
+        position: fixed;
         background: #059f5a;
         height: 100vh;
         width: 200px;
@@ -375,7 +375,7 @@ h3{
 .sub-header{
     height: 50vh;
     width:100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/livingarea/kam-idris-_HqHX3LBN18-unsplash.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/bthroom/live1.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -527,3 +527,83 @@ h3{
         font-size: 24px;
     }
 }
+
+
+/* Contact Page */
+
+.sub-header-con{
+    height: 50vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/kichen/r-architecture-CCjAPxoQWgQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header-con h1{
+    margin-top: 70px;
+}
+
+.location{
+    width:80%;
+    margin:auto;
+    padding: 80px 0;
+}
+
+.location iframe{
+    width:100%;
+
+}
+.contact-us{
+    width: 80%;
+    margin :auto;
+}
+
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+/* .contact-col .row{
+    flex-direction: column;
+    display: flex;
+} */
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+   
+}
+.contact-col div  .fas{
+    font-size: 28px;
+    color:#059d59;
+
+    margin: 10px;
+    margin-right: 30px;
+}
+.contact-col  p{
+    padding: 0;
+}
+.contact-col  h5{
+    font-size: 18px;
+    margin-bottom: 5px;
+    color:#555;
+    font-weight: 400;
+
+}
+.fa-home , .fa-phone , .fa-envelope{
+    font-size: 28px;
+    color:#059d59;
+    margin: 10px;
+    margin-right: 30px;
+  }
+  
+  .contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border:1px solid #ccc;
+    box-sizing: border-box;
+  }

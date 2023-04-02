@@ -12,50 +12,86 @@
     </head>
 
     <body>
-        <section class="sub-header">
+        <section class="sub-header-con">
             <nav>
                 <a href="index.html"><img src="images/cover/logo.png"></a>
                 <div class="nav-links" id="navLinks">
                     <i class="fas fa-times" onclick="hideMenu()"></i>
                     <ul>
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">ABOUT</a></li>
-                        <li><a href="">SERVICES</a></li>
-                        <li><a href="">BLOG</a></li>
-                        <li><a href="">CONTACT</a></li>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="bolg.html">BLOG</a></li>
+                        <li><a href="content.html">CONTACT</a></li>
                     </ul>
 
                 </div>
                 <i class="fas fa-bars" onclick="showMenu()"></i>
             </nav>
-            <h1>About Us</h1>
+            <h1>Contact Us</h1>
            
         </section>
-            <!-- about us content -->
-        <section class="about-us">
-            <div class="row">
-                <div class="about-col">
-                    <h1>We are the World's Largest House Builders</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis rem totam quidem eaque, quod reprehenderit beatae maiores provident eveniet officia fugiat eius sed, minima distinctio eos natus laboriosam. Itaque, debitis?</p>
-                    <a href="" class="hero-btn red-btn">EXPORE NOW</a>
-                </div>
-           
+            <!-- contact us content -->
 
-                <div class="about-col">
-                    <img src="images/people/t3.jpg">
+            <section class="location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15831.555173806128!2d80.33696641673447!3d7.253495852306153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae316b5affca98d%3A0xec4aece6bdbb55b1!2sKegalle!5e0!3m2!1sen!2slk!4v1680452348033!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+            </section>
+
+            <section class="contact-us">
+                <div class="row">
+                    <div class="contact-col">
+                        <div>
+                        <i class="fas fa-home"></i>>
+                        <span>
+                            <h5>XYZ road , ABC building</h5>
+                            <p>colombo road ,gampaha</p>
+                        </span>
+                    </div>
+
+                    <div>
+                        <i class="fas fa-phone"></i>>
+                        <span>
+                            <h5>+(94)675467</h5>
+                            <p>cMonday to Saturday, 10AM to 9PM</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope"></i>>
+                        <span>
+                            <h5>shashi97mahan@gmail.com</h5>
+                            <p>Email us your query</p>
+                        </span>
+                    </div>
+
+
+                </div>
 
                     
-                </div>
-            </div>
+             
 
-        </section>
+                    <div class="contact-col">
+                        <form action="formHandler.php" method="post">
+                            <input type="text" name="name" placeholder="Enter your name" required>
+                            <input type="email" name="email" placeholder="Enter your Email Address" required>
+                            <input type="text"  name="service" placeholder="What service do you need" required>
+                            <textarea  rows="8" name="message"  placeholder="Message" required></textarea>
+                            <button type="submit" class="hero-btn red-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+
+            </section>
+        
 
        
        
             <!-- Footer -->
             <section class="footer">
                 <h4>About Us</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil provident deserunt possimus, cupiditate consequuntur qui repellat nulla. Tempora nihil id illo ad sequi voluptatibus odio maxime amet tempore possimus., Fugit?</p>
+                <p>"At TRY IT BY U ,  Whether you're starting from scratch or updating an existing home, we're here to guide you every step of the way. <br>Contact us today to schedule a consultation and let us help you create the home of your dreams."</p>
                 <div class="icons">
                     <i class="fab fa-facebook"></i>
                     <i class="fab fa-twitter"></i>
