@@ -97,7 +97,7 @@ nav img{
 
 
 
-nav.fa{
+nav .fas{
     display: none;
 }
 @media(max-width:700px){
@@ -117,7 +117,7 @@ nav.fa{
 
     .nav-links{
         position: absolute;
-        background-color: #059f5a;
+        background: #059f5a;
         height: 100vh;
         width: 200px;
         top:0;
@@ -126,7 +126,7 @@ nav.fa{
         z-index: 2;
         transition: 1s;
     }
-    nav.fa{
+    nav .fas{
         display: block;
         color: #fff;
         margin: 10px;
@@ -360,4 +360,53 @@ h3{
 .fas fa-heart{
     color:#f44336;
 
+}
+
+/* ABOUT US PAGE */
+.sub-header{
+    height: 50vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/livingarea/kam-idris-_HqHX3LBN18-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header h1{
+    margin-top: 70px;
+}
+
+.about-us{
+    width:80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+
+}
+.about-col img{
+    width: 100%;
+    
+
+}
+.about-col h1{
+    padding-top:0;
+
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+
+.red-btn{
+    border:1px solid #059f5a;
+    background: transparent;
+    color: #059f5a;
+}
+
+.red-btn:hover{
+    color:white;
 }
