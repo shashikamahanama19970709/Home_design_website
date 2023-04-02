@@ -146,10 +146,14 @@ nav .fas{
     text-align: center;
     padding-top: 100px;
 }
+.course h1{
+    color:black;
+}
 
 h1{
     font-size: 36px;
     font-weight: 600;
+    /* color:black; */
 }
 
 p{
@@ -177,6 +181,7 @@ h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
+    color: black;
 }
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
@@ -226,7 +231,7 @@ h3{
 .layer h3{
     width: 100%;
     font-weight: 500;
-    color: #fff;
+    color: #fcfafa;
     font-size: 26px;
     bottom: 0;
     left: 50%;
@@ -264,6 +269,10 @@ h3{
 .facilities-col p{
     padding: 0;
 }
+.Facilities h1{
+    color:black;
+}
+
 .facilities-col h3{
     margin-top: 16px;
     margin-bottom: 15px;
@@ -409,4 +418,112 @@ h3{
 
 .red-btn:hover{
     color:white;
+}
+
+
+/* service page */
+.sub-header-s{
+    height: 50vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/livingarea/paolo-resteghini-rrDsBeTH38w-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header-s h1{
+    margin-top: 70px;
+}
+
+/* blog content */
+
+.sub-header-b{
+    height: 50vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/kichen/jonathan-borba-TN3dvH3L2dI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header-b h1{
+    margin-top: 70px;
+}
+
+.blog-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+    
+}
+
+.blog-left{
+    flex-basis: 65%;
+}
+
+.blog-left img{
+    width: 70%;
+}
+
+.blog-left h2{
+    color:#222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.blog-left p{
+    color :#999;
+    padding: 0;
+}
+.blog-right{
+    color: #222;
+    flex-basis: 32%;
+
+}
+.blog-right h3{
+    background: #059f5a;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.blog-right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.comment-box{
+    border: 1px solid #ccc;
+    margin:50px 0;
+    padding: 10px 20px;
+
+}
+.comment-box h3{
+    text-align: left;
+}
+
+.comment-form input, .comment-form textarea{
+    width:100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border:none;
+    outline: none;
+    background: #f0f0f0;
+}
+
+.comment-form button{
+    margin: 10px 0;
+}
+
+@media(max-width:700px){
+    .sub-header-b h1{
+        font-size: 24px;
+    }
 }

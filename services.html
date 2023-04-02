@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>Design Your HOME</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> -->
+    </head>
+
+    <body>
+        <section class="sub-header-s">
+            <nav>
+                <a href="index.html"><img src="images/cover/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">SERVICES</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Services</h1>
+           
+       <!-- Services -->
+       <section class="course">
+        <h1>Services We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores et quaerat, sapiente maxime vero natus nulla! Necessitatibus aliquid eveniet quod, quam aperiam deserunt magni iure consectetur unde placeat! Optio, excepturi.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Estimation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim animi similique dicta obcaecati blanditiis repellat modi iusto natus? Nesciunt, repudiandae placeat? Consequuntur exercitationem et natus quo dolore ab esse in!</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim animi similique dicta obcaecati blanditiis repellat modi iusto natus? Nesciunt, repudiandae placeat? Consequuntur exercitationem et natus quo dolore ab esse in!</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Build</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim animi similique dicta obcaecati blanditiis repellat modi iusto natus? Nesciunt, repudiandae placeat? Consequuntur exercitationem et natus quo dolore ab esse in!</p>
+            </div>
+        </div>
+        
+
+
+
+    </section>
+
+<!--    
+     Facilities    -->
+
+     <section class="Facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente? Possimus excepturi vel sequi facere a exercitationem tempore veniam eveniet quo, quaerat qui magnam debitis autem et adipisci laudantium animi?</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/people/t1.jpg" >
+                <h3>Architectural design</h3>
+                <p>This  include services such as conceptual design, schematic design, design development, and construction documentation. It may also involve site analysis, code compliance, and project management.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/people/t4.jpg" >
+                <h3>Interior design</h3>
+                <p>This  include services such as space planning, furniture selection, color coordination, and lighting design. It may also involve the selection of finishes and materials, as well as the creation of 3D renderings and visualizations.</p>
+            </div>
+
+            
+
+            <div class="facilities-col">
+                <img src="images/cover/josh-olalde-X1P1_EDNnok-unsplash.jpg" >
+                <h3>Construction</h3>
+                <p>This  include services such as general contracting, construction management, and construction administration. It may also involve site preparation, foundation work, framing, and finishing.</p>
+            </div>
+            
+        </div>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/bthroom/jared-rice-PibraWHb4h8-unsplash.jpg" >
+                <h3>Renovation and remodeling</h3>
+                <p>This  include services such as home additions, kitchen and bathroom remodels, and basement finishing. It may also involve structural modifications, plumbing and electrical work, and interior and exterior finishes.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/livingarea/nubelson-fernandes-wajLZRUWwtY-unsplash.jpg" >
+                <h3>Sustainable design</h3>
+                <p>This  include services such as energy-efficient design, green building materials, and renewable energy systems. It may also involve LEED certification and other sustainability standards.</p>
+            </div>
+
+            
+
+            <div class="facilities-col">
+                <img src="images/people/t5.jpg" >
+                
+                <h3>Consulting:</h3>
+                <p>This  include services such as design consulting, feasibility studies, and market research. It may also involve zoning and permitting assistance, as well as assistance with financing and budgeting.</p>
+                    
+                </p>
+            </div>
+            
+            
+    
+            </div>
+    </section>
+       
+            <!-- Footer -->
+            <section class="footer">
+                <h4>About Us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil provident deserunt possimus, cupiditate consequuntur qui repellat nulla. Tempora nihil id illo ad sequi voluptatibus odio maxime amet tempore possimus., Fugit?</p>
+                <div class="icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                
+                </div>
+                <p>Made With <i class="fas fa-heart"></i> shashika mahanama</p>
+            </section>
+
+
+
+        <!-- this is js toggle menu -->
+
+        <script>
+            var navLinks =document.getElementById("navLinks")
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200";
+            }
+        </script>
+    </body>
+</html>
