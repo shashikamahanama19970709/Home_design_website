@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>Design Your HOME</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> -->
+    </head>
+
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/cover/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box ">
+                <h1>World's Fashioable Design Center</h1>
+                <p>
+                We committed to give the exceptional design, sustainable outcome and the best quality of service.<br> Our aim is to create places that are intuitive with the design expectations of our clients. 
+
+                </p>
+                <a href="" class="hero-btn">Visit Us To Know More</a>
+
+            </div>
+        </section>
+
+
+        <!-- Course -->
+        <section class="course">
+            <h1>Services We Offer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores et quaerat, sapiente maxime vero natus nulla! Necessitatibus aliquid eveniet quod, quam aperiam deserunt magni iure consectetur unde placeat! Optio, excepturi.</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Estimation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim animi similique dicta obcaecati blanditiis repellat modi iusto natus? Nesciunt, repudiandae placeat? Consequuntur exercitationem et natus quo dolore ab esse in!</p>
+                </div>
+
+                <div class="course-col">
+                    <h3>Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim animi similique dicta obcaecati blanditiis repellat modi iusto natus? Nesciunt, repudiandae placeat? Consequuntur exercitationem et natus quo dolore ab esse in!</p>
+                </div>
+
+                <div class="course-col">
+                    <h3>Build</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim animi similique dicta obcaecati blanditiis repellat modi iusto natus? Nesciunt, repudiandae placeat? Consequuntur exercitationem et natus quo dolore ab esse in!</p>
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <!-- campus -->
+
+        <section class="campus">
+            <h1>Our Global Sevice Area</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut officia temporibus ratione exercitationem laudantium blanditiis. Incidunt, at qui libero ab corporis dicta, quas explicabo dolore tempora, laboriosam iure voluptas voluptate.</p>
+
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/bthroom/tute/london.png">
+                    <div class="layer">
+                        <h3>LONDON</h3>
+                    </div>
+                </div>
+
+                <div class="campus-col">
+                    <img src="images/bthroom/tute/newyork.png">
+                    <div class="layer">
+                        <h3>NEW YORK</h3>
+                    </div>
+                </div>
+
+                <div class="campus-col">
+                    <img src="images/bthroom/washington.png">
+                    <div class="layer">
+                        <h3>WOSINTON</h3>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Facilities -->
+
+        <section class="Facilities">
+            <h1>Our Facilities</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente? Possimus excepturi vel sequi facere a exercitationem tempore veniam eveniet quo, quaerat qui magnam debitis autem et adipisci laudantium animi?</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/cover/save3.jpg" >
+                    <h3>World Class Designers</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit beatae libero ipsam corrupti similique dicta totam sed, dignissimos vel, aspernatur, molestiae eos quam officia doloremque numquam culpa at mollitia.</p>
+
+                </div>
+
+                <div class="facilities-col">
+                    <img src="images/cover/collection/c.jpg" >
+                    <h3>Well Expereience Crue</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit beatae libero ipsam corrupti similique dicta totam sed, dignissimos vel, aspernatur, molestiae eos quam officia doloremque numquam culpa at mollitia.</p>
+
+                </div>
+
+                
+
+                <div class="facilities-col">
+                    <img src="images/cover/collection/b.jpg" >
+                    <h3>Overseas Sevices</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit beatae libero ipsam corrupti similique dicta totam sed, dignissimos vel, aspernatur, molestiae eos quam officia doloremque numquam culpa at mollitia.</p>
+
+                </div>
+                
+            </div>
+
+        </section>
+
+
+
+
+
+
+        <!-- this is js toggle menu -->
+
+        <script>
+            var navLinks =document.getElementById("navLinks")
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200";
+            }
+        </script>
+    </body>
+</html>
